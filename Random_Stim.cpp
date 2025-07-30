@@ -65,7 +65,7 @@ void loop() {
         binsize = averageTime / totalbins;  // Derive duration of one bin
         Serial.print("Average time between ");
         Serial.print(numEdges);
-        Serial.print(" steps: ");
+        Serial.print(" consecutive gaits: ");
         Serial.print(averageTime);
         Serial.println(" ms");
 
